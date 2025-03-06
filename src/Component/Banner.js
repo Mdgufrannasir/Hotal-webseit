@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="pt-20">
       <div className="px-20 py-10 gap-3 text-white flex flex-col">
-        <p className="text-6xl/tight text-center"> Make Yourself At Home In<br/> Our Guest House.</p>
+        <h1 className="text-6xl/tight text-center"> Make Yourself At Home In<br/>Our <span className="text-purple-600 font-semibold"> Guest House.</span></h1>
         <span className="flex justify-center"><hr className="w-80 h-[2px] bg-white border-none" /></span>
         <p className="text-2xl text-center">Simple - Unique - Friendly</p>
       </div>
